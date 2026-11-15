@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "asset-shelf",
+      "name": "Asset Shelf",
+      "tagline": "Browse your asset packs and send any model to Unreal or Blender.",
+      "description": "Every asset of your Unreal packs and loose FBX, glTF, OBJ and .blend files in one grid with previews, filters by kind, tag and pack, and two buttons: Send to Unreal and Send to Blender.",
+      "by": "Jatify",
+      "memoryMax": "3G",
+      "repo": "https://github.com/imdizmo/asset-shelf",
+      "releases": "imdizmo/asset-shelf",
+      "releaseAsset": "linux-x64.tar.gz",
+      "releaseExe": "AssetShelf"
+    },
+    {
+      "id": "groundwork",
+      "name": "Groundwork",
+      "tagline": "A world editor for Unreal Engine, live in the open level.",
+      "description": "Open a map, shape its ground, paint its layers, place and move objects, draw rivers and lakes, and watch every change land in the Unreal editor as you make it.",
+      "by": "Jatify",
+      "memoryMax": "12G",
+      "repo": "https://github.com/imdizmo/groundwork",
+      "releases": "imdizmo/groundwork",
+      "releaseAsset": "linux-x64.tar.gz",
+      "releaseExe": "Groundwork"
+    }
+  ]
+}

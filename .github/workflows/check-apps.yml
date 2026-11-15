@@ -1,0 +1,14 @@
+name: Check apps.json
+on:
+  push:
+    paths: [apps.json, scripts/check_apps.py]
+  pull_request:
+    paths: [apps.json, scripts/check_apps.py]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check_apps.py apps.json
