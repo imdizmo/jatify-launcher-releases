@@ -40,6 +40,19 @@
         "linux"
       ],
       "minLauncher": "0.6.1"
+    },
+    {
+      "id": "questlog",
+      "name": "Questlog",
+      "tagline": "Plan your game as tasks, lore and a game-data wiki.",
+      "description": "A private, offline Questlog: projects, lists, tasks, lore wiki with typed entries, and JSON export for your game.",
+      "by": "Jatify",
+      "memoryMax": "1536M",
+      "singleInstance": true,
+      "repo": "https://github.com/imdizmo/questlog",
+      "releases": "imdizmo/questlog",
+      "releaseAsset": "linux-x64.tar.gz",
+      "releaseExe": "Questlog"
     }
   ]
 }
