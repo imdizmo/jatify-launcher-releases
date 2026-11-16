@@ -24,6 +24,22 @@
       "releases": "imdizmo/groundwork",
       "releaseAsset": "linux-x64.tar.gz",
       "releaseExe": "Groundwork"
+    },
+    {
+      "id": "prop-generator",
+      "name": "Prop Generator",
+      "tagline": "Make game props live: floor tiles, rocks, cliffs and nature.",
+      "description": "Paints wooden floor tiles in any wood colour, builds cut, low-poly and stylized rocks and cliffs, and exports them as GLB models straight into a Groundwork map.",
+      "by": "Jatify",
+      "memoryMax": "6G",
+      "repo": "https://github.com/imdizmo/prop-generator",
+      "releases": "imdizmo/prop-generator",
+      "releaseAsset": "linux-x64.tar.gz",
+      "releaseExe": "PropGenerator",
+      "platforms": [
+        "linux"
+      ],
+      "minLauncher": "0.6.1"
     }
   ]
 }
