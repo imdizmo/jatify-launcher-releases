@@ -43,6 +43,7 @@ def problems(text):
         if "platforms" in e and not (isinstance(e["platforms"], list) and e["platforms"] and all(x in ("linux", "windows") for x in e["platforms"])):
             bad('platforms is not a list of "linux" and "windows"')
         if "memoryMax" in e and not SIZE.match((s("memoryMax") or "").upper()): bad("memoryMax is not a size")
+        if "memoryMin" in e and not SIZE.match((s("memoryMin") or "").upper()): bad("memoryMin is not a size")
         for k, n in (("tagline", 200), ("description", 1000), ("by", 40)):
             if k in e and (s(k) is None or len(s(k)) > n): bad(f"{k} is not text of at most {n} characters")
         for k in ("command", "checkout", "unit", "project", "source", "exe"):
