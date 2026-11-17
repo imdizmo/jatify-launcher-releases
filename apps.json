@@ -35,11 +35,7 @@
       "repo": "https://github.com/imdizmo/prop-generator",
       "releases": "imdizmo/prop-generator",
       "releaseAsset": "linux-x64.tar.gz",
-      "releaseExe": "PropGenerator",
-      "platforms": [
-        "linux"
-      ],
-      "minLauncher": "0.6.1"
+      "releaseExe": "PropGenerator"
     },
     {
       "id": "questlog",
